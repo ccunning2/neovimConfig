@@ -27,4 +27,7 @@ return require('packer').startup(function(use)
   use { 'tpope/vim-fugitive' }                       -- git integration
   use { 'junegunn/gv.vim' }                          -- commit history
   use { 'windwp/nvim-autopairs' }                    -- auto close brackets, etc.
+  use 'voldikss/vim-floaterm' --Terminal.. Just mapping toggle to F7 for now
+  use 'tpope/vim-commentary' --Comments
+  use 'tpope/vim-surround' --Vim surround!
 end)

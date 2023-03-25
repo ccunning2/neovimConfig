@@ -2,6 +2,7 @@
 local opt = vim.opt
 local cmd = vim.cmd
 
+
 -- [[ Context ]]
 opt.colorcolumn = '80'           -- str:  Show col for max line length
 opt.number = true                -- bool: Show line numbers
@@ -37,3 +38,5 @@ opt.splitbelow = true            -- bool: Place new window below the current one
 opt.syntax = "ON"                -- str:  Allow syntax highlighting
 opt.termguicolors = true         -- bool: If term supports ui color then enable
 cmd('colorscheme dracula')       -- cmd:  Set the colorscheme
+
+vim.o.clipboard = "unnamedplus" --Use the system clipboard
