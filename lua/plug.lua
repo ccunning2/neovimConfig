@@ -16,7 +16,7 @@ return require('packer').startup(function(use)
     requires = {'kyazdani42/nvim-web-devicons',
                 opt = true}
   }
-  use { 'Mofiqul/dracula.nvim' }                     -- colorscheme
+  use { 'Shatur/neovim-ayu' }                     -- colorscheme
   -- [[ Dev ]]
   use {
     'nvim-telescope/telescope.nvim',                 -- fuzzy finder
